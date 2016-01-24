@@ -1,0 +1,56 @@
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+a,a:visited{
+	cursor:pointer;
+	-webkit-touch-callout: none;
+}
+
+a:focus {
+	outline:thin dotted
+}
+
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browsehappy {
+	padding: 1em;
+	margin:0;
+	background: cornflowerblue;;
+}
+
+.browsehappy a {
+	color: white;
+}
+
+
+
+html {
+	font-size:62.5%;/* 10px/16*100=62.5%---10px=1rem */
+	font-weight:600;
+	-webkit-font-smoothing: antialiased;
+
+	color: $white;
+	
+}
+
+img {
+	max-width:100%;
+	vertical-align:middle;
+	-ms-interpolation-mode: bicubic
+}

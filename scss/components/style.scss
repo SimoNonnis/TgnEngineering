@@ -1,0 +1,131 @@
+
+/* ==========================================================================
+   All Page Style
+   ========================================================================== */
+
+
+/* Typo
+   ========================================================================== */
+
+body {
+	@include font-size(1.8);
+}
+
+h1,
+h2 {
+	margin: 0;
+	@include font-size(2.3);
+}
+
+.btn {
+	@include font-size(1.8);	
+}
+
+
+
+
+
+
+
+/* Full Background Image 
+   ========================================================================== */
+html,
+body {
+	height: 100%;
+}
+
+
+.general-container {
+	background-color: $white;
+	background-image: url(../img/engineering.jpg);
+	background-repeat: no-repeat; 
+	background-position: center;
+  background-size: cover;
+
+  min-height: 100%;
+
+  border-top: 10px solid $orange;
+}
+
+
+/* Wrapper
+   ========================================================================== */
+.wrapper {
+	padding: $m-space;
+}
+
+@include min-screen(62.5em) {
+	.wrapper {
+		padding-top: $xl-space;
+	}	
+}
+
+
+
+/* Content Container
+   ========================================================================== */
+.container {
+	background-color: $corn;
+	background-color: rgba(100, 149, 237, 0.7);
+	max-width: 1000px;
+	border: 1px solid $white;
+}
+
+
+
+.spotlight {
+	background-color: $spotlight;
+	background-color: rgba(108, 130, 219, 0.41);
+}
+
+.container__about,
+.container__contact {
+	padding: $s-space $xs-space;
+}
+
+@include min-screen(62.5em) {
+	.container__about,
+	.container__contact {
+		width: 50%;
+	}	
+
+}
+
+/* Buttons
+   ========================================================================== */
+
+.btn {
+	width: 100%;
+	padding: $xs-space $s-space;
+	border: 1px solid $white;
+	margin-top: $s-space;
+	background-color: $v1-corn;
+	background-color: rgba(42, 114, 243, 0.5);
+	transition: .4s ease-in-out;
+}
+
+
+
+@include min-screen(62.5em) {
+	.btn {
+		width: 60%;
+	}
+
+	.btn:active,
+	.btn:focus,
+	.btn:hover {
+		background-color: $orange;
+	}	
+
+}
+
+
+
+
+
+
+
+
+
+
+

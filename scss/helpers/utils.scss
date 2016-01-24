@@ -1,0 +1,147 @@
+
+/* ==========================================================================
+   Utils
+   ========================================================================== */
+
+
+
+/* Micro Clearfix
+   ========================================================================== */
+
+.u-cf:before,
+.u-cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.u-cf:after {
+  clear: both;
+}
+
+
+
+/* Inline Block
+   ========================================================================== */
+
+.u-inlineBlock {
+  display: inline-block !important;
+  max-width: 100%; /* 1 */
+}
+
+
+/* Vertical alignment utilities
+   ========================================================================== */
+
+.u-alignBaseline {
+  vertical-align: baseline !important;
+}
+
+.u-alignBottom {
+  vertical-align: bottom !important;
+}
+
+.u-alignMiddle {
+  vertical-align: middle !important;
+}
+
+.u-alignTop {
+  vertical-align: top !important;
+}
+
+
+
+
+/* Centered
+   ========================================================================== */
+.u-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Block-level link
+   ========================================================================== */
+
+.u-linkBlock,
+.u-linkBlock:hover,
+.u-linkBlock:focus,
+.u-linkBlock:active {
+  display: block !important;
+  text-decoration: none !important;
+}
+
+
+
+/* Position Relative
+   ========================================================================== */
+
+.u-posRelative {
+  position: relative !important;
+}
+
+
+
+/* Position Absolute -- Center
+   ========================================================================== */
+
+.u-posAbsoluteCenter {
+  bottom: 0 !important;
+  left: 0 !important;
+  margin: auto !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+}
+
+
+
+/* Word breaking 
+   ========================================================================== */
+
+.u-textBreak {
+  word-wrap: break-word !important;
+}
+
+
+
+/* Horizontal text alignment
+   ========================================================================== */
+
+.u-textCenter {
+  text-align: center !important;
+}
+
+.u-textLeft {
+  text-align: left !important;
+}
+
+.u-textRight {
+  text-align: right !important;
+}
+
+
+
+
+/* Inherit the ancestor's text color
+   ========================================================================== */
+
+
+.u-textInheritColor {
+  color: inherit !important;
+}
+
+
+
+/* Text truncation
+   ========================================================================== */
+
+.u-textTruncate {
+  max-width: 100%; /* 1 */
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal !important; /* 2 */
+}
+
+
+
